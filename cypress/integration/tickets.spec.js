@@ -83,7 +83,7 @@ describe("Tickets", () => {
 
     });
 
-    it.only("Fill mandatory fields", () => {
+    it("Fill mandatory fields", () => {
         const customer = {
             firstName: "John",
             lastName: "Doe",
