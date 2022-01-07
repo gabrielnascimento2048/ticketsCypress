@@ -51,7 +51,7 @@ describe("Tickets", () => {
         cy.get("#email.invalid").should("not.exist");
     });
 
-    it("fills and reset the fomr", () => {
+    it.only("fills and reset the form", () => {
         const firstName = "John";
         const lastName = "Doe";
         const fullName = `${firstName} ${lastName}`;
