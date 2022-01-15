@@ -14,7 +14,7 @@
   ],
   "author": "Gabriel Nascimento",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^9.2.0"
   }
 }
